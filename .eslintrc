@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "mocha": true,
+    "jasmine": true
+  },
+  "globals": {
+    "atom": true
+  }
+}

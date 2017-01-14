@@ -8,7 +8,8 @@ import SphinxPreview from '../lib/sphinx-preview';
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
 describe('SphinxPreview', () => {
-  let workspaceElement, activationPromise;
+  let workspaceElement,
+    activationPromise;
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
@@ -25,17 +26,15 @@ describe('SphinxPreview', () => {
       // activated.
       atom.commands.dispatch(workspaceElement, 'sphinx-preview:toggle');
 
-      waitsForPromise(() => {
-        return activationPromise;
-      });
+      waitsForPromise(() => activationPromise);
 
       runs(() => {
         expect(workspaceElement.querySelector('.sphinx-preview')).toExist();
 
-        let sphinxPreviewElement = workspaceElement.querySelector('.sphinx-preview');
+        const sphinxPreviewElement = workspaceElement.querySelector('.sphinx-preview');
         expect(sphinxPreviewElement).toExist();
 
-        let sphinxPreviewPanel = atom.workspace.panelForItem(sphinxPreviewElement);
+        const sphinxPreviewPanel = atom.workspace.panelForItem(sphinxPreviewElement);
         expect(sphinxPreviewPanel.isVisible()).toBe(true);
         atom.commands.dispatch(workspaceElement, 'sphinx-preview:toggle');
         expect(sphinxPreviewPanel.isVisible()).toBe(false);
@@ -57,13 +56,11 @@ describe('SphinxPreview', () => {
       // activated.
       atom.commands.dispatch(workspaceElement, 'sphinx-preview:toggle');
 
-      waitsForPromise(() => {
-        return activationPromise;
-      });
+      waitsForPromise(() => activationPromise);
 
       runs(() => {
         // Now we can test for view visibility
-        let sphinxPreviewElement = workspaceElement.querySelector('.sphinx-preview');
+        const sphinxPreviewElement = workspaceElement.querySelector('.sphinx-preview');
         expect(sphinxPreviewElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'sphinx-preview:toggle');
         expect(sphinxPreviewElement).not.toBeVisible();
