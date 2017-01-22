@@ -26,7 +26,7 @@ Or via the `Settings View : Install` in Atom.
 
 ## Usage
 
-- Open Atom in your at the root of your documentation.
+- Open Atom at the root of your documentation.
 - Press `ctrl-alt-o` on a `rst` file to open the preview
 
 ## How does it work ?
