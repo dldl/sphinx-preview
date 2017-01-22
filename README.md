@@ -4,6 +4,13 @@
 
 ![sphinxdemo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/sphinxdemo.gif)
 
+## Installation
+Install the sphinx-preview preview
+```
+apm install sphinx-preview
+```
+After that, you need to install the dependencies
+
 ## Dependencies
 This package needs `Docker` and `browser-plus` atom package.
 
