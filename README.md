@@ -3,7 +3,7 @@
 Sphinx-Preview allows you to write and preview
 [Sphinx Documentation](http://www.sphinx-doc.org/) using Atom.
 
-![sphinxdemo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/docs/demo.gif)
+![Sphinx Demo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/docs/demo.gif)
 
 ## Dependencies
 
