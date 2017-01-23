@@ -1,34 +1,48 @@
-# sphinx-preview
-[Sphinx](http://www.sphinx-doc.org/) preview in Atom
+# Sphinx-Preview
 
+Sphinx-Preview allows you to write and preview
+[Sphinx Documentation](http://www.sphinx-doc.org/) using Atom.
 
-![sphinxdemo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/sphinxdemo.gif)
+![Sphinx Demo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/docs/demo.gif)
 
 ## Installation
-Install the sphinx-preview preview
+
+Install the Sphinx-Preview Atom package with the following command:
+
 ```
 apm install sphinx-preview
+
 ```
-After that, you need to install the dependencies
+
+Or via the `Settings View : Install` in Atom.
+
+You also need to install the following dependencies.
 
 ## Dependencies
-This package needs `Docker` and `browser-plus` atom package.
+
+This package needs `Docker` and the `browser-plus` Atom package. It will use
+[Sphinx-Server](https://github.com/dldl/sphinx-server) to build the documentation.
 
 ### Docker
-Install docker   
-https://docs.docker.com/engine/installation/
 
-### browser-plus
-Install the `browser-plus` package
-In a cli :
+Install Docker by reading the official documentation : https://docs.docker.com/engine/installation/
+
+### Atom `browser-plus` package
+
+Install the `browser-plus` package by running the following command:
+
 ```
 apm install browser-plus
 ```
-Or via the `Settings View : Install` in Atom
 
 ## Usage
-- Open Atom in your sphinx-doc project root folder.
-- Press `ctrl-alt-o` on a `rst` file to open the sphinx-preview
 
-## How it works ?
-sphinx-preview pull and run the [sphinx-server](https://hub.docker.com/r/dldl/sphinx-server/). It mounts the right folder based on the opened project. Eventually, the package launch a [browser-plus](https://atom.io/packages/browser-plus) panel on the active `rst` file.
+- Open Atom at the root of your documentation.
+- Press `ctrl-alt-o` on a `rst` file to open the preview
+
+## How does it work ?
+
+Sphinx-Preview pulls and runs the
+[Sphinx-Server](https://hub.docker.com/r/dldl/sphinx-server/). It mounts the
+opened project folder. Finally, the package launches a [browser-plus](https://atom.io/packages/browser-plus)
+panel on the active `rst` file.
