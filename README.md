@@ -5,6 +5,13 @@ Sphinx-Preview allows you to write and preview
 
 ![Sphinx Demo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/docs/demo.gif)
 
+## Installation
+Install the sphinx-preview preview
+```
+apm install sphinx-preview
+```
+After that, you need to install the dependencies
+
 ## Dependencies
 
 This package needs `Docker` and the `browser-plus` Atom package. It will use
