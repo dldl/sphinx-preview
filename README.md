@@ -3,6 +3,8 @@
 Sphinx-Preview allows you to write and preview
 [Sphinx Documentation](http://www.sphinx-doc.org/) using Atom.
 
+[![apm](https://img.shields.io/apm/v/sphinx-preview.svg)](https://atom.io/packages/sphinx-preview)
+
 ![Sphinx Demo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/docs/demo.gif)
 
 ## Installation
