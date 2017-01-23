@@ -11,7 +11,6 @@ Install the Sphinx-Preview Atom package with the following command:
 
 ```
 apm install sphinx-preview
-
 ```
 
 Or via the `Settings View : Install` in Atom.
