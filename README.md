@@ -6,11 +6,17 @@ Sphinx-Preview allows you to write and preview
 ![Sphinx Demo](https://raw.githubusercontent.com/dldl/sphinx-preview/master/docs/demo.gif)
 
 ## Installation
-Install the sphinx-preview preview
+
+Install the Sphinx-Preview Atom package with the following command:
+
 ```
 apm install sphinx-preview
+
 ```
-After that, you need to install the dependencies
+
+Or via the `Settings View : Install` in Atom.
+
+You also need to install the following dependencies.
 
 ## Dependencies
 
@@ -28,8 +34,6 @@ Install the `browser-plus` package by running the following command:
 ```
 apm install browser-plus
 ```
-
-Or via the `Settings View : Install` in Atom.
 
 ## Usage
 
