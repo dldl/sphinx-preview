@@ -12,7 +12,11 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "package-deps": [
+    "browser-plus"
+  ],
   "dependencies": {
+    "atom-package-deps": "^4.3.1",
     "dockerode": "^2.3.1"
   },
   "devDependencies": {
