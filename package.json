@@ -1,7 +1,7 @@
 {
   "name": "sphinx-preview",
   "main": "./lib/sphinx-preview",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "Sphinx-Preview allows you to write and preview Sphinx Documentation using Atom",
   "keywords": [],
   "activationCommands": {
