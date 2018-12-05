@@ -18,7 +18,6 @@
   "dependencies": {
     "atom-package-deps": "^4.3.1",
     "dockerode": "^2.3.1",
-    "jshashes": "^1.0.7",
     "find-free-port": "^2.0.0"
   },
   "devDependencies": {
